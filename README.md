@@ -1,7 +1,9 @@
 # Fake News Detector & Genuine News Teller
 ## Overview -
 These days’ fake news is creating different issues from sarcastic articles to fabricated news and plan government propaganda in some outlets. Fake news on social media apps such as Whatsapp , Twitter , Facebook related to pandemics such as COVID-19 has the power to create panics leading to damage of life and property greater than the deadliest of terror attacks known to humankind.
+
 Thus we thought of a webapp on which an user can enter the news articles. This news would be tested for falsivity by our machine learning algorithm and then we will extract important keywords from this news, these keywords are used for telling the user genuine news by scraping it from an esteemed news website.
+
 To understand the relevance of our Fake news detector let us consider the example of recent mass migration of labourers from metropolitan cities to their respective villages fearing starvation . The migration happened because most of the public was misinformed about the Lockdown and rumours such as “Lockdown to be extended for 3 months” were rampant , the public was not informed about the relief measures taken by the government. Had there been an app such as ours wherein users could have searched for rumours such as “Indian Govt. extend lockdown for 3 months”,they would have found the news to be baseless , they would have also known the relief measures taken by the government and hence the problem of labourers could have been completely avoided . 
 
 ## Goals -  
