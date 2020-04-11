@@ -5,7 +5,7 @@ import requests
 from relatednews import *
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
-from sklearn.externals import joblib
+import joblib
 import pickle
 import nltk
 from sklearn.naive_bayes import GaussianNB,MultinomialNB
