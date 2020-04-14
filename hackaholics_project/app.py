@@ -19,6 +19,8 @@ CORS(app)
 @app.route("/", methods=["GET", "POST"])
 def search():
     if request.method == "POST":
+        nltk.download('punkt')
+        nltk.download('stopwords')
         text = request.form.get("message")
         related_news = relatednews(text)
         NBVocab = open('NBVocab.pkl', 'rb')
@@ -48,6 +50,8 @@ def search():
 def api():
     content = request.json
     text = content["message"]
+    nltk.download('punkt')
+    nltk.download('stopwords')
     related_news = relatednews(text)
     NBVocab = open('NBVocab.pkl', 'rb')
     cv = joblib.load(NBVocab)
